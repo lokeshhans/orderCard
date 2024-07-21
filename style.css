@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+}
+:root{ 
+        /* ### Primary */
+
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+/* ### Neutral */
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+body{
+    background-color: #f5f5f5;
+}
+.widthwrapper{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    /* background: RED; */
+    width: 226px;
+}
+.cardimg{
+    background-image: url(/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    border-radius: 1rem 1rem 0 0;
+}
+.carditems{
+    padding: 0 2rem;
+}
+.cardtitle{
+    background:var(--Very-pale-blue);
+    margin: 0 -2rem;
+}
+.cardtitle h3,
+.cardtitle p{
+    text-align: center;
+    color: var(--Desaturated-blue);
+    padding: 1rem 0;
+}
+.cardtitle p{
+    font-size: 10px;
+    padding: 2rem;
+}
+.cardsong{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom:1rem  ;
+}
+.button{
+    /* background: var(--Dark-blue); */
+    /* position: relative; */
+    margin: 1rem 0 ;
+}
+.button button{
+    width: 100%;
+    background: var(--Bright-blue);
+    border: none;
+    /* position: absolute; */
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancel a {
+    text-decoration: none;
+}
