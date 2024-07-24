@@ -35,7 +35,7 @@ body{
     width: 226px;
 }
 .cardimg{
-    background-image: url(/images/illustration-hero.svg);
+    background-image: url(illustration-hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 60%;
